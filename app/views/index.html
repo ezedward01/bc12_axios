@@ -174,12 +174,8 @@
                 />
               </div>
               <div class="form-group">
-                <label for="">Loại sản phẩm: </label>
-                <select class="form-control" id="loaiSP">
-                  <option value="phone">Phone</option>
-                  <option value="laptop">Laptop</option>
-                  <option value="other">Other</option>
-                </select>
+                <label for="">Mô tả: </label>
+                <textarea  id="moTa" class="form-control" placeholder="mô tả"></textarea>
               </div>
             </div>
             <!-- Modal footer -->
@@ -215,5 +211,10 @@
     <script src="https://code.highcharts.com/highcharts.js"></script>
     <script src="https://code.highcharts.com/modules/series-label.js"></script>
     <script src="https://code.highcharts.com/modules/exporting.js"></script>
+    
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="../services/SanPhamService.js"></script>
+    <script src="../models/sanPham.js"></script>
+    <script src="../controllers/main.js"></script>
   </body>
 </html>
